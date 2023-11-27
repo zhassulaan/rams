@@ -1,3 +1,9 @@
+:root {
+  --clr-white: #FFF;
+  --clr-grey: #6C7A88;
+  --clr-gold: #CFAB6F;
+}
+
 *,
 ::after,
 ::before {
@@ -15,6 +21,8 @@ html {
 body {
   display: block;
   width: 100%;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
 }
 
 img {

@@ -1,0 +1,28 @@
+.compass {
+	display: flex;
+	&-direction {
+		display: flex;
+		&__text,
+		&__line--big,
+		&__line--small {
+			font-weight: 400;
+			line-height: 130%;
+			text-transform: uppercase;
+			color: var(--clr-white);
+			align-self: center;
+			padding: 0 3px;
+		}
+		&__text {
+			font-size: 30px;
+		}
+		&__line {
+			&--big {
+				font-size: 28px;
+			}
+			&--small {
+				font-size: 20px;
+				color: var(--clr-grey);
+			}
+		}
+	}
+}
